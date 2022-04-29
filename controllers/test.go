@@ -9,5 +9,6 @@ type TestController struct {
 }
 
 func (c *TestController) Get() {
+
 	c.Ctx.WriteString("hello world")
 }
